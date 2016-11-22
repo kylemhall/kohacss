@@ -1,0 +1,124 @@
+/*long overdue*/
+
+pre { font-family: "Arial Black", sans-serif; }
+pre { font-size: 10pt; }
+
+.message {
+    top::0px;
+    left: 0px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Suitable for #10 Window Envelope
+ * with 1.125" x 4.5" window, 0.875 from left margin.
+ * Adjustments may be needed to top and left, based on
+ * printer margins.
+ *
+ * See http://www.windowenvelopes.com/envelope_sizes_a/257.htm
+ *
+ * It is good practice to do a 'tap test' when choosing envelope
+ * window dimensions -- fold and stuff the envelope, then tap
+ * the envelope against a hard surface to make sure that the
+ * address block still shows when the mailer shifts inside the
+ * envelope; there should be 1/4" clearance at the bottom.
+ *
+ * */
+
+.long_overdue .totals {
+ font-weight: bold;
+
+}
+
+.long_overdue .content p {
+ font-weight: bold;
+
+
+}
+
+div.address {
+    position: relative;
+    border 0px;
+    padding 0px;
+    margin 0px;
+    top: -0.375in;
+    left: 0.800in;
+    width: 4.5in;
+    height: 1.125in;
+}
+
+div.return_address {
+    position: relative;
+    border 0px;
+    padding 0px;
+    margin 0px;
+    top: 0.50in;
+    left: 0.800in;
+    width: 3.5in;
+    height: 1.125in;
+}
+
+/* Content will appear in the bottom 2/3 of a letter size page when printed. */
+div.content {
+    position: relative;
+    top: -.250in;
+    left: 0.0in;
+}
+
+/*default for lists*/
+
+ul li {
+
+ list-style: none;
+ line-height: 0px;
+
+}
+
+
+
+.long_overdue .content li {
+    line-height: 2;
+}
+
+.long_overdue .items_list {
+    margin: 0 auto;
+    width: 841px;
+    border-top:2px solid #000000;
+}
+
+.long_overdue td, .long_overdue th {
+ border:1px solid #000000;
+
+}
+
+.long_overdue tr th {
+    background-color: gainsboro;
+}
+
+/*left/right heading*/
+
+.long_overdue .left_heading, .long_overdue .right_heading {
+    display: flex;
+    justify-content: space-around;
+}
+
+.long_overdue .content span {
+ text-decoration: underline;
+
+
+}
+
+@media screen {
+    .page-break {
+        display: block;
+        page-break-before: always;
+    }
+}
+
+@media print {
+    .page-break {
+        display: block;
+        page-break-before: always;
+    }
+}
