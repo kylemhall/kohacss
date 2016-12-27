@@ -9,6 +9,51 @@ pre { font-size: 10pt; }
     margin: 0px;
 }
 
+/*long overdue CSS*/
+
+.long_overdue .totals {
+ font-weight: bold;
+
+}
+
+.long_overdue .content p {
+ font-weight: bold;
+
+
+}
+
+.long_overdue .content li {
+    line-height: 2;
+}
+
+.long_overdue .items_list {
+    margin: 0 auto;
+    width: 841px;
+    border-top:2px solid #000000;
+}
+
+.long_overdue td, .long_overdue th {
+ border:1px solid #000000;
+
+}
+
+.long_overdue tr th {
+    background-color: gainsboro;
+}
+
+/*left/right heading*/
+
+.long_overdue .left_heading, .long_overdue .right_heading {
+    display: flex;
+    justify-content: space-around;
+}
+
+.long_overdue .content span {
+ text-decoration: underline;
+
+
+}
+
 /* Suitable for #10 Window Envelope
  * with 1.125" x 4.5" window, 0.875 from left margin.
  * Adjustments may be needed to top and left, based on
