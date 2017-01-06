@@ -1,0 +1,93 @@
+/*Camden overdue*/
+
+* { font-family: monospace; }
+* { font-size: 10pt; }
+
+
+body {
+    margin: 158px;
+    width: 2244px;
+}
+
+/* Suitable for #10 Window Envelope
+ * with 1.125" x 4.5" window, 0.875 from left margin.
+ * Adjustments may be needed to top and left, based on
+ * printer margins.
+ *
+ * See http://www.windowenvelopes.com/envelope_sizes_a/257.htm
+ *
+ * It is good practice to do a 'tap test' when choosing envelope
+ * window dimensions -- fold and stuff the envelope, then tap
+ * the envelope against a hard surface to make sure that the
+ * address block still shows when the mailer shifts inside the
+ * envelope; there should be 1/4" clearance at the bottom.
+ *
+ * */
+
+
+
+ .date, table {
+     margin-left: 30px;
+     margin-bottom: 29px;
+ }
+
+ .items {
+     margin-bottom: 1403px;
+ }
+
+ .notice_text {
+     margin-bottom: 265px;
+ }
+
+ tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen {
+    .page-break {
+        display: block;
+        page-break-before: always;
+    }
+}
+
+@media print {
+    .page-break {
+        display: block;
+        page-break-before: always;
+    }
+}
+
+.message { page-break-after: always }
+pre { font-family: monospace }
+pre {white-space: pre-wrap;}
+pre {white-space: -moz-pre-wrap;}
+pre {white-space: -o-pre-wrap;}
+pre {word-wrap: break-work;}
+
+td { white-space:pre }
+
+.total_price {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 28px;
+}
+
+.return_address {
+ margin-top:96px;
+
+
+}
+
+ul li {
+
+  list-style: none;
+}
+
+.patron_address ul {
+    margin: 0 auto;
+    width: 164px;
+    margin-left: 50%;
+    margin-top:142px;
+    margin-left:1016px;
+}
