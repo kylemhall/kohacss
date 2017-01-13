@@ -13,7 +13,7 @@
 
 
 .notice {
-    margin-left: 0px;
+    margin-left: 58px;
     /*width: 2244px;*/
 }
 
@@ -36,15 +36,15 @@
 
  .date, table {
      margin-left: 30px;
-     margin-bottom: 29px;
+     
  }
 
  .items {
-    margin-bottom: 89px;
+    margin-bottom: 10px;
 }
 
  .notice_text {
-     margin-bottom: 50px;
+     margin-bottom: 10px;
  }
 
  tr {
