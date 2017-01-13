@@ -13,7 +13,7 @@
 
 
 .notice {
-    margin: 158px;
+    margin-left: 158px;
     /*width: 2244px;*/
 }
 
@@ -94,8 +94,8 @@ ul li {
 
 .patron_address ul {
     margin: 0 auto;
-    width: 164px;
-    margin-left: 50%;
-    margin-top:142px;
-    margin-left:1016px;
+    width: 329px;
+    
+    margin-top: 142px;
+    
 }
