@@ -3,6 +3,10 @@
 * { font-family: monospace; }
 * { font-size: 10px; }
 
+.patron_address {
+ page-break-after: auto;       
+        
+}
 
 .message { page-break-after: always }
         pre { font-family: monospace }
