@@ -8,10 +8,6 @@
         
 }
 
-.address {
-    height: 450px;
-}
-
 .message { page-break-after: always }
         pre { font-family: monospace }
         pre {white-space: pre-wrap;}
