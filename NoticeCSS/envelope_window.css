@@ -9,6 +9,17 @@ pre { font-size: 24pt; }
     margin: 0px;
 }
 
+/*billing notice */
+
+#billing_notice {
+  font-size:11px;   
+    }
+
+.return_address_billing {
+ margin-bottom:15px;   
+    
+}
+
 /*long overdue CSS*/
 
 .long_overdue .totals {
