@@ -9,6 +9,8 @@ pre { font-size: 10pt; }
     margin: 0px;
 }
 
+.content { page-break-after: always }
+
 .billing_notice, body {
  font-size:11px;
  font-family:'Times New Roman';   
@@ -40,7 +42,7 @@ div.address {
     border 0px;
     padding 0px;
     margin 0px;
-    top: -0.375in;
+    top: 36px;
     left: 0.800in;
     width: 1.38in;
     height: 1.125in;
