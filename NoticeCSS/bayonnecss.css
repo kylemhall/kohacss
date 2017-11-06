@@ -9,6 +9,8 @@ pre { font-size: 10pt; }
     margin: 0px;
 }
 
+.message { page-break-after: always }
+
 div.address {
     position: relative;
     border 0px;
