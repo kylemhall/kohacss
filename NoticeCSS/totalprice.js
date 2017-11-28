@@ -1,0 +1,1 @@
+var x=document.getElementsByClassName("price"),i,total=0;for(i=0;i<x.length;i++){var cost=parseFloat(x[i].innerHTML);isNaN(cost)||(total+=cost)}document.getElementById("price").innerHTML=total.toFixed(2);
